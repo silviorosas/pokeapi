@@ -29,7 +29,7 @@ public class PokemonService {
     public ResponseEntity<?> getAllPokemon() {
         List<Pokemon> allPokemon = new ArrayList<>();
         try {
-            String url = POKEAPI_BASE_URL + "?limit=200";
+            String url = POKEAPI_BASE_URL + "?limit=50";
             PokemonListResponse response = restTemplate.getForObject(url, PokemonListResponse.class);
             if (response != null && response.getResults() != null) {
                 for (PokemonListResponse.PokemonEntry pokemonEntry : response.getResults()) {
