@@ -1,13 +1,12 @@
-package com.desafio.pokeapi.modelsAllPokemons;
+package com.desafio.pokeapi.model;
 
-import com.desafio.pokeapi.modelsPokemonDetails.NamedAPIResource;
-import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+
 import lombok.Data;
 
 import java.util.List;
 
 @Data
-public class PokemonApiResponse {
+public class PokemonDetailsApiResponse {
     private Long id;
     private String name;
     private Sprites sprites;
@@ -18,10 +17,9 @@ public class PokemonApiResponse {
     private List<NamedAPIResource> moves;
 
 
-
-    @Data
+    /*@Data
     @JsonIgnoreProperties(ignoreUnknown = true)
     public static class MoveEntry {
         private NamedAPIResource move;
-    }
+    }*/
 }

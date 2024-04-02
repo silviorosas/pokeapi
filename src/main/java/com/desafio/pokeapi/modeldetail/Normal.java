@@ -1,11 +1,10 @@
-package com.desafio.pokeapi.modelsPokemonDetails;
-
-import lombok.Data;
+package com.desafio.pokeapi.modeldetail;
 
 import java.util.List;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
+import lombok.Data;
 
 @Data
 @JsonIgnoreProperties(ignoreUnknown = true)

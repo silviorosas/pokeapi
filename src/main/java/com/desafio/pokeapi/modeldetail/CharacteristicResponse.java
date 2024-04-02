@@ -1,8 +1,10 @@
-package com.desafio.pokeapi.modelsPokemonDetails;
-
-import lombok.Data;
+package com.desafio.pokeapi.modeldetail;
 
 import java.util.List;
+
+import com.desafio.pokeapi.model.NamedAPIResource;
+
+import lombok.Data;
 
 @Data
 public class CharacteristicResponse {

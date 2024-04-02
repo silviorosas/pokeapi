@@ -1,4 +1,9 @@
-package com.desafio.pokeapi.modelsPokemonDetails;
+package com.desafio.pokeapi.modeldetail;
+
+
+
+
+import com.desafio.pokeapi.model.NamedAPIResource;
 
 import lombok.Data;
 

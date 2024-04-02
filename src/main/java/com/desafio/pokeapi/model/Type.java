@@ -1,4 +1,4 @@
-package com.desafio.pokeapi.modelsAllPokemons;
+package com.desafio.pokeapi.model;
 
 import lombok.Data;
 

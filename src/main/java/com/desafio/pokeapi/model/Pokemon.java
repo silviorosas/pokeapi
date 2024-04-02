@@ -1,9 +1,8 @@
-package com.desafio.pokeapi.modelsAllPokemons;
+package com.desafio.pokeapi.model;
 
 import lombok.Data;
 
 import java.util.List;
-
 
 @Data
 public class Pokemon {
@@ -12,5 +11,5 @@ public class Pokemon {
     private int weight;
     private String type;
     private List<Ability> abilities;
-    private String description;
+
 }

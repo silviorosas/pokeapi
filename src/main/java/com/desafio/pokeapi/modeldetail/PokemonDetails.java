@@ -1,10 +1,10 @@
-package com.desafio.pokeapi.modelsPokemonDetails;
-
-import com.desafio.pokeapi.modelsAllPokemons.Ability;
-import com.desafio.pokeapi.modelsAllPokemons.Pokemon;
-import lombok.Data;
+package com.desafio.pokeapi.modeldetail;
 
 import java.util.List;
+
+import com.desafio.pokeapi.model.Ability;
+
+import lombok.Data;
 
 @Data
 public class PokemonDetails {
